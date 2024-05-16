@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "../styles/navBar.css"
+import "../Styles/navBar.css"
 
 function NavBar() {
   const [showBurger, setShowBurger] = useState(false);
@@ -19,7 +19,7 @@ function NavBar() {
         <Link to="/" className="navBar_link">
           <li className="navBar_item">Accueil</li>
         </Link>
-        <Link to="/characters" className="navBar_link">
+        <Link to="/Activity" className="navBar_link">
           <li className="navBar_item">Activités</li>
         </Link>
       </ul>
