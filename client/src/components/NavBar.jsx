@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "../Styles/navBar.css";
+import "../Styles/navBar.css"
 
 function NavBar() {
   const [showBurger, setShowBurger] = useState(false);
@@ -12,9 +12,8 @@ function NavBar() {
   return (
     <header className={`header ${showBurger ? "show-nav" : "hide-nav"}`}>
       <Link to="/" className="logo_link">
-    <img src="./src/assets/yes-dice-logo.png" alt="Logo" className="logo" /> 
-  </Link>
-
+        <h2 className="logo">Yes to dice</h2>
+      </Link>
 
       <ul className="navBar_links">
         <Link to="/" className="navBar_link">
