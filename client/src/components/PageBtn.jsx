@@ -1,5 +1,4 @@
-import React from 'react';
-import "../Styles/pageBtn.css";
+import "../Styles/PageBtn.css";
 
 
 function PageBtn({ text, onClick, className }) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/diceBtn.css';
+import '../Styles/DiceBtn.css';
 
 function DiceBtn({ onClick }) {
     const handleClick = () => {

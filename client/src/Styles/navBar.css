@@ -3,17 +3,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  @font-face {
-    font-family: "AirbnbCereal_Bd";
-    src: url("../src/assets/Fonts/AirbnbCereal_W_Bd.otf");
-   
-  }
-  
-  #root {
-    --primary-font: "AirbnbCereal_Bd";
-    
-  }
 
   .header {
     display: flex;
@@ -26,13 +15,12 @@
     left: 0;
     width: 100%;
     min-height: 75px;
-    background-color: aqua;
+    background-color: var(--primary-background-color);
     
   }
 
   .navBar_links {
     display: flex;
-
   }
 
   .navBar_link {
@@ -41,7 +29,7 @@
   }
 
   .navBar_item:hover {
-    color: black;
+    color: var(--secondary-background-color);
     
   }
 
@@ -52,6 +40,16 @@
     border: none;
     color: inherit;
     display: none;
+  }
+
+  .logo-link{
+    max-height: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    max-width: 5rem;
   }
 
   
@@ -66,7 +64,7 @@
       padding: 1rem;
       width: 100%;
       min-height: 75px;
-      background-color: aqua;
+      background-color: var(--primary-background-color);
       
     }
 
@@ -76,9 +74,9 @@
       position: fixed;
       right: -100vw;
       bottom: 0;
-      height: 90vh;
+      height: 100vh;
       padding: 2rem;
-      background-color: aqua;
+      background-color: var(--primary-background-color);
       visibility: hidden;
       transition: all 0.5s ease-out;
     }
@@ -114,7 +112,7 @@
       height: 3px;
       position: relative;
       border-radius: 3px;
-      background-color: black;
+      background-color: var(--secondary-color);
       transition: all 0.5s ease-in-out;
     }
   
