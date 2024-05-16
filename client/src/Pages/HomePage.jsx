@@ -1,11 +1,8 @@
+import SearchBar from "../components/SearchBar";
+
     function HomePage() {
-  return (
-    <>
-    <section className="container">
-    <div>HomePage</div>
-    </section>
-    </>
-  )
+
+  return <SearchBar />
 }
 
 export default HomePage;

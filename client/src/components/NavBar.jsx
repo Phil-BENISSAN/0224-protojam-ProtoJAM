@@ -16,7 +16,7 @@ function NavBar() {
       </Link>
 
       <ul className="navBar_links">
-        <Link to="/" className="navBar_link">
+        <Link to="/Home" className="navBar_link">
           <li className="navBar_item">Accueil</li>
         </Link>
         <Link to="/Activity" className="navBar_link">
