@@ -12,7 +12,7 @@ function Cards({ item }) {
       </div>
       <div className="buttonContainer">
         <button type="button" className="button">
-          <a href={`https://www.babasport.fr${item.lien}`}>Go</a>
+          <a href={`https://www.babasport.fr${item.lien}`}>Je veux !</a>
         </button>
       </div>
       </div>
