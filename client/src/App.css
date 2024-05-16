@@ -92,13 +92,3 @@ p {
   color: var(--secondary-color);
 }
 
-<<<<<<< HEAD
-=======
-.resultContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
->>>>>>> f6413a7f4ab274c08f173bdee3e10f00f64b8177
