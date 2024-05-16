@@ -1,16 +1,16 @@
-import "../styles/cards.css";
+import "../Styles/cards.css";
+import image from '../assets/6__1_.avif'
 
-function Cards() {
+function Cards({item}) {
   return (
     <div className="cards">
-      <img src="src/assets/Personne avec raquette de tennis.jpg" />
+      <img src={image} alt={item.name}/>
       <div className="textContainer">
-      <h1 className="title">Activité sportive</h1>
-      <p className="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-        temporibus id suscipit deleniti quia. Eius necessitatibus voluptatum
-        asperiores vitae exercitationem.
-      </p>
+      <h1 className="title">{item.nom}</h1>
+      <p>{item.prix} / personnes</p>
+      <div className="buttonContainer">
+      <button type="button" className="button"><a href={`https://www.babasport.fr${item.lien}`}>Go</a></button>
+      </div>
       </div>
     </div>
   );

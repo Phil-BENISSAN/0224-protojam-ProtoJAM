@@ -19,7 +19,7 @@ function NavBar() {
         <Link to="/" className="navBar_link">
           <li className="navBar_item">Accueil</li>
         </Link>
-        <Link to="/characters" className="navBar_link">
+        <Link to="/Activity" className="navBar_link">
           <li className="navBar_item">Activités</li>
         </Link>
       </ul>
