@@ -1,8 +1,53 @@
+#root {
+  --primary-font: "AirbnbCereal_Bd";
+  --secondary-font:"AirbnbCereal_Bk";
+  --terciary-font:"AirbnbCereal_Blk";
+  --quaternary-font:"AirbnbCereal_Lt";
+  --fifth-font:"AirbnbCereal_Md";
+  --sixth-font:"AirbnbCereal_XBd";
+  --primary-background-color: #18534F;
+  --primary-color:#18534F;
+  --secondary-background-color:#ECF8F6;
+  --secondary-color:#D6955B;
+}
+
+.cards {
+  background: rgba( 236, 248, 246, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 16px );
+  -webkit-backdrop-filter: blur( 16px );
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 5rem;
+  display: flex;
+}
+
 .container {
-  background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+width: 50%;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+object-fit: cover;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.description {
+  color:var(--primary-color);
+  line-height: 1.4;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.textContainer {
+  padding: 1rem;
 }

@@ -1,10 +1,9 @@
-import Cards from "../components/Cards";
-
-function HomePage() {
+    function HomePage() {
   return (
     <>
+    <section className="container">
     <div>HomePage</div>
-    {/* <Cards/> */}
+    </section>
     </>
   )
 }
