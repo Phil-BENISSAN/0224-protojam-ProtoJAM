@@ -8,7 +8,13 @@ def fn_fast_api():
 
 # -------  INSERER VOTRE CODE ICI -----------------
     
-    return {'Key': 'Value'}
+    import pandas as pd
+    
+    url = 'app/df_yesman.csv'
+    
+    df=pd.read_csv(url)
+    
+    return df.to_json()
 
 
 # ---------------- FIN DE TON CODE ----------------

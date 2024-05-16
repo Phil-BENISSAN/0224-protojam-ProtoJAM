@@ -1,16 +1,18 @@
 import Cards from '../components/Cards'
+import SearchBar from '../components/SearchBar';
 import data from '../data.json'
 
 function Activity() {
-    // Assurez-vous que data.activité est un tableau avant de mapper
-    const activities = data.activité || []; // Par défaut, un tableau vide si data.activité est undefined
+    const activities = data.activité || [];
   
-    return (
+    return ( <>
+        <SearchBar/>
       <section className='resultContainer'>
         {activities.map((item) => (
           <Cards item={item} key={item.id} />
         ))}
       </section>
+      </>
     );
   }
   

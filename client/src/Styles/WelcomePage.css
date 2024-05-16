@@ -1,0 +1,19 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .category-images {
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  
+  .category-images img {
+    width: 200px; 
+    height: 200px; 
+    margin: 10px; 
+  }
+  
+  
