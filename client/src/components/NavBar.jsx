@@ -12,7 +12,7 @@ function NavBar() {
   return (
     <header className={`header ${showBurger ? "show-nav" : "hide-nav"}`}>
       <Link to="/" className="logo_link">
-        <h2 className="logo">Yes Man</h2>
+        <h2 className="logo">Yes to dice</h2>
       </Link>
 
       <ul className="navBar_links">
