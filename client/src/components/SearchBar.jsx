@@ -16,7 +16,7 @@ function SearchBar() {
           <span style={{ transitionDelay: "0ms" }}>.</span>
         </label>
       </div>
-      <p className="textSearchBar">
+      {/* <p className="textSearchBar">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quis
         aperiam, nihil magnam pariatur consequatur vero molestiae unde optio!
         Quisquam repellat non tempore saepe voluptatibus facere dolore labore
@@ -33,7 +33,7 @@ function SearchBar() {
         optio possimus facilis fugit aperiam facere odio totam tenetur
         praesentium animi error, quam minima! Expedita qui nisi saepe pariatur
         voluptate nihil, ipsam in minima eveniet animi voluptates ullam.
-      </p>
+      </p> */}
     </section>
   );
 }
