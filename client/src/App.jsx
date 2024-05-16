@@ -1,13 +1,19 @@
-
-
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import NavBar from './components/NavBar'
 
 function App() {
 
 
   return (
-    <>
-      <h1>Airbnb</h1>
-    </>
+    <section>
+
+      <NavBar />
+      <Outlet />
+      
+    </section>
   )
+
+}
+
 export default App
