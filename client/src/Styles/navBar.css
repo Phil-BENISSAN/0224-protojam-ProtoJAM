@@ -21,7 +21,6 @@
 
   .navBar_links {
     display: flex;
-
   }
 
   .navBar_link {
@@ -65,7 +64,7 @@
       position: fixed;
       right: -100vw;
       bottom: 0;
-      height: 90vh;
+      height: 100vh;
       padding: 2rem;
       background-color: var(--primary-background-color);
       visibility: hidden;

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "../Styles/navBar.css";
 import { Link } from "react-router-dom";
+import "../styles/navBar.css"
 
-function NavBar({}) {
+function NavBar() {
   const [showBurger, setShowBurger] = useState(false);
 
   const handelShowLinks = () => {
