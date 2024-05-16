@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import HomePage from '../src/Pages/HomePage.jsx';
+import WelcomePage from '../src/Pages/WelcomePage.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path:"/",
-        element:<HomePage />
+        element:<WelcomePage />
       }
     ],
   },
