@@ -1,0 +1,22 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "AirbnbCereal_Bd";
+  src: url("../src/assets/Fonts/AirbnbCereal_W_Bd.otf");
+ 
+}
+
+#root {
+  --primary-font: "AirbnbCereal_Bd";
+  
+}
+
+h1 {
+  font-family: var(--primary-font);
+}
+
