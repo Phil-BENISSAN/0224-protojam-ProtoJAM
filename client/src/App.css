@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "AirbnbCereal_Bd";
+  src: url("../src/assets/Fonts/AirbnbCereal_W_Bd.otf");
+ 
+}
+
+#root {
+  --primary-font: "AirbnbCereal_Bd";
+  --primary-color: #18534F;
+  --background-color:#ECF8F6;
+  --secondary-color:#D6955B;
+}
+
+
+h1, h2 {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+li {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.logo:hover {
+  color: var(--primary-background-color);
+}
+
+p {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
