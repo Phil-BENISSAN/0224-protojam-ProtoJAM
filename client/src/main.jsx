@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import WelcomePage from '../src/Pages/WelcomePage.jsx';
+import WelcomePage from './Pages/WelcomePage.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([

@@ -1,16 +1,18 @@
 import React from 'react';
-import '../Styles/PageBtn.css';
+import "../Styles/pageBtn.css";
 
 
-function PageBtn() {
+function PageBtn({ text, onClick, className }) {
+  const handleClick = () => {
+    onClick();
+  };
+
   return (
     <div>
-      <Button type="button" onClick={handleClick} className="button-page">Cliquez-moi</Button>
+      <button type="button" onClick={handleClick} className={className}>{text}</button>
     </div>
   );
 }
 
-function handleClick() {
-}
-
 export default PageBtn;
+
