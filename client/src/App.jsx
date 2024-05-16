@@ -1,4 +1,5 @@
 
+
 import './App.css'
 
 function App() {
@@ -9,6 +10,4 @@ function App() {
       <h1>Airbnb</h1>
     </>
   )
-}
-
 export default App
