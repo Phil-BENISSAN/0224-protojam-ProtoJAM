@@ -13,7 +13,9 @@
 
 #root {
   --primary-font: "AirbnbCereal_Bd";
-  
+  --primary-color: #18534F;
+  --background-color:#ECF8F6;
+  --secondary-color:#D6955B;
 }
 
 
