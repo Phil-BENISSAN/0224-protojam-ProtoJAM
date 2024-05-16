@@ -7,8 +7,7 @@ function App() {
 
   return (
     <section>
-
-      <NavBar />
+      <NavBar/>
       <Outlet />
       
     </section>
