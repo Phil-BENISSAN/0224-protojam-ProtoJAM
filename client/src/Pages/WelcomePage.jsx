@@ -21,7 +21,9 @@ function WelcomePage() {
     <section>
       {/* Étape 1 */}
       {step === 0 && (
+        
         <section className="containWelcomeText">
+          <article className="banner"></article>
           <div>
             <h2 className="titleWelcome">Bienvenue sur YES TO DÉ !</h2>
             <p className="WelcomeText">

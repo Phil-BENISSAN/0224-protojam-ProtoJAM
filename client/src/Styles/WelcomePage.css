@@ -4,32 +4,36 @@
   box-sizing: border-box;
 }
 
-
+.banner {
+  background-image: url("../assets/img/jim.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  height: 10rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
 
 .containWelcomeText {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/jim.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  margin: 110px 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
   height: 100%;
   padding: 100px 16px 100px 16px;
 }
 
 .titleWelcome {
   margin-bottom: 1rem;
+  color: var(--primary-color);
 }
 
-.WelcomeText{
+.WelcomeText {
   margin-bottom: 1rem;
+  color: var(--primary-color);
 }
-
 
 .btnNext {
   display: flex;
