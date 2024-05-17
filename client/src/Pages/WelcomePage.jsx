@@ -64,6 +64,7 @@ function WelcomePage() {
       {/* Étape 3 */}
       {step === 2 && (
         <section className="containCategory containCategory2">
+          <h2 className="instruction">Selectionne ton type d'Activités (min 2)</h2>
           <ul>
   <li>
     <input type="checkbox" id="myCheckbox1" />

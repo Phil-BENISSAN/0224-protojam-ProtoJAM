@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <section>
       <SearchBar />
-<ul>
+<ul className="checkobe">
   <li>
     <input type="checkbox" id="myCheckbox1" />
     <label htmlFor="myCheckbox1"><img src="../src/assets/air.jpeg" className="selection"/></label>

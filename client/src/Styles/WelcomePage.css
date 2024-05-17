@@ -46,3 +46,9 @@
 .containCategory2 {
   margin-top: 10rem;
 }
+
+.instruction {
+  font-size: 2rem;
+  color:var(--primary-color);
+  text-align: center;
+}
