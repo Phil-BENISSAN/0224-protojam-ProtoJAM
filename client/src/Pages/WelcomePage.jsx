@@ -23,7 +23,7 @@ function WelcomePage() {
       {step === 0 && (
         <section className="containWelcomeText">
           <div>
-            <h2 className="titleWelcome">Welcome on YES TO DÉ !</h2>
+            <h2 className="titleWelcome">Bienvenue sur YES TO DÉ !</h2>
             <p className="WelcomeText">
               Entrez dans l'univers de Yes to Dé! Votre guide d'aventure par
               excellence, Que vous soyez un citadin curieux, un amoureux de la
