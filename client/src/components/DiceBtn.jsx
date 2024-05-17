@@ -7,7 +7,7 @@ function DiceBtn({ onClick }) {
   };
 
   return (
-    <div>
+    <div className="buttonContainer">
       <button type="button" onClick={handleClick} className="dice-Btn">
         <Link to="/activity">Lancer le dès</Link>
       </button>

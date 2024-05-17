@@ -39,5 +39,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 67vh;
+  margin: 0.5rem;
+  margin-bottom: 63vh;
+}
+
+.containCategory2 {
+  margin-top: 10rem;
 }
