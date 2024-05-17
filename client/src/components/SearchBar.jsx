@@ -5,7 +5,7 @@ function SearchBar() {
     <section className="contain_searchBar">
       <div className="form-control">
         <input required type="text" />
-        <label>
+        <label className="test">
           <span style={{ transitionDelay: "350ms" }}>V</span>
           <span style={{ transitionDelay: "300ms" }}>i</span>
           <span style={{ transitionDelay: "250ms" }}>l</span>
