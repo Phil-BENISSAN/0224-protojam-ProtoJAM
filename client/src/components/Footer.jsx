@@ -4,7 +4,7 @@ import "../Styles/footer.css";
 function Footer() {
   return (
     <footer>
-      <p>Yes to dice © 2024</p>
+      <p>Yes to Dé © 2024</p>
       <p>Conditions d'utilisation - Politique de confidentialité</p>
     </footer>
   );
