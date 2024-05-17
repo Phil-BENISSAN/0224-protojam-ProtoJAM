@@ -3,12 +3,18 @@ import PageBtn from "../components/PageBtn";
 import DiceBtn from "../components/DiceBtn";
 import "../Styles/WelcomePage.css";
 import SearchBar from "../components/SearchBar";
+import { Link, useNavigate } from "react-router-dom";
 
 function WelcomePage() {
   const [step, setStep] = useState(0);
+  const navigate = useNavigate();
 
   const handleNextPage = () => {
     setStep(step + 1);
+  };
+
+  const handleDiceRoll = () => {
+    navigate('/Loading');
   };
 
   return (
@@ -29,15 +35,15 @@ function WelcomePage() {
               vos escapades les plus mémorables !
             </p>
           </div>
+          <article className="btnNext">
+            <PageBtn
+              text="START"
+              onClick={handleNextPage}
+              className="button-page"
+            />
+          </article>
         </section>
       )}
-      <article className="btnNext">
-        <PageBtn
-          text="START"
-          onClick={handleNextPage}
-          className="button-page"
-        />
-      </article>
 
       {/* Étape 2 */}
       {step === 1 && (
@@ -104,7 +110,24 @@ function WelcomePage() {
               </div>
             </div>
           </div>
-          <DiceBtn onClick={handleNextPage} />
+          <DiceBtn onClick={handleDiceRoll} />
+        </section>
+      )}
+
+      {/* Étape 4 - Lancer de dé */}
+      {step === 3 && (
+        <section>
+          <h2>Roll the Dice!</h2>
+          <Dice />
+          <article className="btnNext">
+            <Link to="/Loading">
+              <PageBtn
+                text="FINISH"
+                onClick={handleNextPage}
+                className="button-page"
+              />
+            </Link>
+          </article>
         </section>
       )}
     </section>
