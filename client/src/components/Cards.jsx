@@ -4,7 +4,7 @@ import image from "../assets/6__1_.avif";
 function Cards({ item }) {
   return (
     <div className="cards">
-      <img src={item.image} alt={item.name} />
+      <img className="cardImg"src={item.image} alt={item.name} />
       <div className="rightContainer">
       <div className="textContainer">
         <h1 className="title">{item.nom}</h1>

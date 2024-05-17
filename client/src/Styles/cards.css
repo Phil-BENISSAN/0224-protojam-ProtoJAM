@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 
-img {
+.cardImg {
 width: 50%;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;

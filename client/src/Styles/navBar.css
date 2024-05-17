@@ -42,17 +42,6 @@
     display: none;
   }
 
-  .logo-link{
-    /* max-height: 3rem; */
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo{
-    max-width: 60px;
-    /* width: auto; */
-    height: 100%;
-  }
 
   
 
@@ -147,4 +136,8 @@
       transform: rotate(-45deg);
     }
     
+  }
+
+  .logo {
+    width:3.5rem;
   }
