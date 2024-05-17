@@ -61,55 +61,44 @@ function WelcomePage() {
 
       {/* Étape 3 */}
       {step === 2 && (
-        <section className="containCategory">
-          <h2>Step 3</h2>
-          <div className="category-images">
-            <h2>Sélectionnez vos catégories :</h2>
-            <div>
-              <div>
-                <input type="checkbox" className="category1" name="category1" />
-                <label htmlFor="category1">
-                  <h3>Catégorie 1</h3>
-                  <img src="../src/assets/air.jpeg" alt="Category 1" />
-                </label>
-              </div>
-              <div>
-                <input type="checkbox" className="category2" name="category2" />
-                <label htmlFor="category2">
-                  <h3>Catégorie 2</h3>
-                  <img src="../src/assets/eau.jpeg" alt="Category 2" />
-                </label>
-              </div>
-              <div>
-                <input type="checkbox" className="category3" name="category3" />
-                <label htmlFor="category3">
-                  <h3>Catégorie 3</h3>
-                  <img src="../src/assets/hiking.jpeg" alt="Category 3" />
-                </label>
-              </div>
-              <div>
-                <input type="checkbox" className="category3" name="category3" />
-                <label htmlFor="category3">
-                  <h3>Catégorie 4</h3>
-                  <img src="../src/assets/hiking.jpeg" alt="Category 3" />
-                </label>
-              </div>
-              <div>
-                <input type="checkbox" className="category3" name="category3" />
-                <label htmlFor="category3">
-                  <h3>Catégorie 5</h3>
-                  <img src="../src/assets/hiking.jpeg" alt="Category 3" />
-                </label>
-              </div>
-              <div>
-                <input type="checkbox" className="category3" name="category3" />
-                <label htmlFor="category3">
-                  <h3>Catégorie 6</h3>
-                  <img src="../src/assets/hiking.jpeg" alt="Category 3" />
-                </label>
-              </div>
-            </div>
-          </div>
+        <section className="containCategory containCategory2">
+          <ul>
+  <li>
+    <input type="checkbox" id="myCheckbox1" />
+    <label htmlFor="myCheckbox1"><img src="../src/assets/air.jpeg" className="selection"/></label>
+    <h2 className="titleCat">Air</h2>
+  </li>
+  <li>
+
+    <input type="checkbox" id="myCheckbox2" />
+    <label htmlFor="myCheckbox2"><img src="../src/assets/eau.jpeg" className="selection"/></label>
+    <h2 className="titleCat">Aquatique</h2>
+  </li>
+  <li>
+
+    <input type="checkbox" id="myCheckbox3" />
+    <label htmlFor="myCheckbox3"><img src="../src/assets/hiking.jpeg" className="selection"/></label>
+    <h2 className="titleCat">Marche</h2>
+  </li>
+  <li>
+
+    <input type="checkbox" id="myCheckbox4" />
+    <label htmlFor="myCheckbox4"><img src="../src/assets/Brickwall en gros plan.jpg" className="selection"/></label>
+    <h2 className="titleCat">Urbain</h2>
+  </li>
+  <li>
+
+    <input type="checkbox" id="myCheckbox5" />
+    <label htmlFor="myCheckbox5"><img src="../src/assets/Voiture de course sur le parcours.jpg" className="selection"/></label>
+    <h2 className="titleCat">Automobile</h2>
+  </li>
+  <li>
+
+    <input type="checkbox" id="myCheckbox6" />
+    <label htmlFor="myCheckbox6"><img src="../src/assets/Visite insolite Île Nantes.webp" className="selection"/></label>
+    <h2 className="titleCat">Insolite</h2>
+  </li>
+</ul>
           <DiceBtn onClick={handleDiceRoll} />
         </section>
       )}

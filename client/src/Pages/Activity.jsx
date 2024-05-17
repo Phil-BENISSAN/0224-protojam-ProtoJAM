@@ -6,7 +6,6 @@ function Activity() {
     const activities = data.activité || [];
   
     return ( <>
-        <SearchBar/>
       <section className='resultContainer'>
         {activities.map((item) => (
           <Cards item={item} key={item.id} />

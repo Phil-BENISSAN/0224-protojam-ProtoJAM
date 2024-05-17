@@ -12,18 +12,18 @@
       "description": "L'Escape Game nouvelle génération à Bordeaux ! Parcourez les rues de la ville équipés d'une carte, d'un téléphone pour recevoir des vidéos et d'une GoPro pour que le Game Master suive votre session !\ud83c\udfa5\nEntre patrimoine, d\u00e9couverte, et adr\u00e9naline, plongez au c\u0153ur de la ville pour r\u00e9soudre toutes les \u00e9nigmes en moins d'une heure !\ud83e\udded\n\ud83c\udf89 Formule EVG/EVJF\nChoisissez entre rester ensemble ou former 2 \u00e9quipes en comp\u00e9tition, ambiance P\u00e9kin Express garantie !\ud83c\udfc3\ud83c\udfc3\nLe petit : Repartez avec la vid\u00e9o de l\u2019aventure de la future mari\u00e9e !C\u2019est l\u2019occasion de se retrouver quelques jours apr\u00e8s la session pour revivre l\u2019heure de jeu\u2026Et avoir des s\u00e9quences pour le mariage !!!\ud83d\udc92\n\ud83c\udfdb\ufe0f Team Building\nFormez des équipes entre 6 et 10 participants, et affrontez vos collègues sur notre parcours. Ambiance Péwkin Express / La Carte au trésor garanti ! Le jeu dure 1h. Comptez 30 minutes supplémentaires pour le briefing et le débriefing, qui seront animés par un Game Master. Une GoPro sera fournie aux participants volontaires afin de filmer ce moment ! Vous repartirez alors avec la carte SD remplie de souvenirs !"
     },
     {
-      "nom": "Rallye photo à Bordeaux",
+      "nom": "Atelier cr\u00e9ation d'un vin rouge \u00e0 Bordeaux",
       "id": 25,
       "ville": "Bordeaux",
       "note": "4.5",
       "prix": "55 €",
-      "image": "../src/assets/Personne avec raquette de tennis.jpg",
+      "image": "../src/assets/Cauchemar au chateau 7.avif",
       "lien": "/activites/5267-atelier-creation-d-un-vin-rouge-en-equipe-a-bordeaux",
       "categorie": "Activités urbaines",
       "description": "\nLancez-vous dans un jeu de coh\u00e9sion grandeur nature durant lequel plusieurs \u00e9quipes \u00e9laborent leur propre cuv\u00e9e, cr\u00e9ent leur \u00e9tiquette et tentent de redorer l\u2019image d\u2019un Ch\u00e2teau (propri\u00e9t\u00e9 viticole bordelaise)\u00a0laiss\u00e9 \u00e0 l\u2019abandon. Pour constituer une \u00e9quipe, il faut au minimum 2 participants.\nApr\u00e8s d\u00e9gustation et pr\u00e9sentation des projets, le tr\u00e8s pointilleux jury final \u00e9lira l\u2019\u00e9quipe gagnante. Les participants repartiront avec leurs bouteilles\u00a0\u00e9tiquet\u00e9es\u00a0et embouteill\u00e9es,\u00a0\u2026\u00a0et le corps enivr\u00e9 par tous ces doux breuvages !\nL\u2019activit\u00e9 dure 2h30 et se d\u00e9roule en plein c\u0153ur historique de Bordeaux.\nApprentissage et bonne ambiance garantis, entre coll\u00e8gues, en famille ou entre amis ! Inclus: un.e animateur.trice sp\u00e9cialiste du vignoble bordelais, une\u00a0pr\u00e9sentation introductive du vignoble bordelais, les vins, une planche mixte charcuteries et fromages par personne. Il est possible d\u2019inclure un d\u00e9jeuner convivial qui se d\u00e9roulera dans nos locaux apr\u00e8s le jeu. L'atelier peut \u00e9galement \u00eatre suivi d'un tour guid\u00e9 dans un ou plusieurs Ch\u00e2teaux du vignoble bordelais dans l'apr\u00e8s-midi. Demandez un devis.\n3 raisons de faire cette activit\u00e9 :\n\nActivit\u00e9 en plein c\u0153ur de Bordeaux.\nAm\u00e9liorez vos connaissances viticoles.\nAccord mets et vins (planches charcuteries & fromages).\n\n\u00a0\n"
     },
     {
-      "nom": "Jeu de piste en vélo à Bordeaux",
+      "nom": "Lancer de Hache à Bordeaux",
       "id": 26,
       "ville": "Bordeaux",
       "note": "4.22",
