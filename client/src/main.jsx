@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage.jsx';
 import ResultPage from './Pages/ResultPage.jsx'
 import WelcomePage from './Pages/WelcomePage.jsx'
 import Activity from './Pages/Activity.jsx';
+import Loading from './Pages/Loading.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/Activity",
         element: <Activity/>,
+      },
+      {
+        path: "/Loading",
+        element: <Loading />,
       }
     ],
   },
